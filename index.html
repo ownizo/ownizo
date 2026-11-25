@@ -7,6 +7,9 @@
 <meta name="description" content="O Grupo Ownizo, empresa apostada em tecnologia e IA, reúne as marcas Adler &amp; Rochefort, MillionGuard, Guardemar e Viagem Garantida. Sede em Lisboa.">
 <link rel="canonical" href="https://ownizo.com/">
 <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt">
+<link rel="alternate" hreflang="pt-PT" href="https://ownizo.com/">
+<link rel="alternate" hreflang="en" href="https://ownizo.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://ownizo.com/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -14,6 +17,7 @@
 <meta property="og:title" content="Grupo Ownizo">
 <meta property="og:description" content="Adler &amp; Rochefort, MillionGuard, Guardemar e Viagem Garantida — marcas do Grupo Ownizo.">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="pt_PT">
 <meta property="og:url" content="https://ownizo.com/">
 <meta name="theme-color" content="#14181F">
 <link rel="preload" href="/assets/fonts/sora-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -43,6 +47,8 @@ header.scrolled{border-bottom-color:var(--line)}
 .nav ul{display:flex;gap:30px;list-style:none;font-size:15px;font-weight:500}
 .nav ul a{text-decoration:none;color:var(--ink-2)}
 .nav ul a:hover{color:var(--ink)}
+.nav .lang{font-weight:600;letter-spacing:.08em;font-size:13px;border:1px solid var(--line);border-radius:999px;padding:7px 12px}
+.nav .lang:hover{border-color:var(--ink)}
 .nav .cta{background:var(--ink);color:#fff;padding:10px 18px;border-radius:999px}
 .nav .cta:hover{color:#fff;background:#000}
 
@@ -114,7 +120,8 @@ footer{margin-top:80px;padding-top:30px;border-top:1px solid rgba(255,255,255,.1
 footer img{height:24px;width:auto;display:block}
 
 @media (max-width:900px){
-  .nav ul li:not(:last-child){display:none}
+  .nav ul li:not(:last-child):not(:nth-last-child(2)){display:none}
+  .nav ul{gap:12px}
   .grid,.cgrid,.about .inner{grid-template-columns:1fr}
   .about .inner{gap:24px}
   .owners,.tech-grid{grid-template-columns:1fr}
@@ -140,6 +147,7 @@ footer img{height:24px;width:auto;display:block}
       <li><a href="#empresas">Empresas</a></li>
       <li><a href="#grupo">O grupo</a></li>
       <li><a href="#tecnologia">Tecnologia</a></li>
+      <li><a class="lang" href="/en/" hreflang="en" lang="en">EN</a></li>
       <li><a class="cta" href="#contactos">Contactos</a></li>
     </ul>
   </nav>
