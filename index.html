@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Grupo Ownizo — Seguros, proteção e serviços patrimoniais</title>
-<meta name="description" content="O Grupo Ownizo reúne as marcas Adler &amp; Rochefort, MillionGuard, Guardemar e Viagem Garantida. Sede em Lisboa.">
+<meta name="description" content="O Grupo Ownizo, empresa apostada em tecnologia e IA, reúne as marcas Adler &amp; Rochefort, MillionGuard, Guardemar e Viagem Garantida. Sede em Lisboa.">
 <link rel="canonical" href="https://ownizo.com/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
@@ -85,6 +85,21 @@ section.brands{padding:40px 0 110px}
 .about h2{font-size:clamp(30px,3.4vw,42px)}
 .about p{color:var(--ink-2);margin-bottom:16px}
 
+.about h2 em.gold{font-style:normal;color:var(--bronze)}
+.about strong{font-weight:600;color:var(--ink)}
+.owners{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:48px}
+.owners div{border:1px solid var(--line);border-radius:18px;padding:22px 24px;background:rgba(255,255,255,.55)}
+.owners b{display:block;font-family:Sora,Inter,sans-serif;font-weight:600;font-size:18px;margin-bottom:4px}
+.owners span{color:var(--muted);font-size:15px}
+.tech{padding:0 0 110px}
+.tech-card{background:#fff;border:1px solid var(--line);border-radius:28px;padding:56px}
+.tech-head{max-width:760px;margin-bottom:44px}
+.tech-head h2{font-size:clamp(30px,3.4vw,44px);margin:20px 0 18px}
+.tech-head p{color:var(--ink-2)}
+.tech-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;border-top:1px solid var(--line);padding-top:36px}
+.tech-grid h3{font-size:19px;margin-bottom:10px;display:flex;align-items:center;gap:10px}
+.tech-grid h3::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--bronze);flex:none}
+.tech-grid p{color:var(--ink-2);font-size:16px}
 /* contact */
 .contact{background:var(--ink);color:#fff;border-radius:32px 32px 0 0;padding:96px 0 40px}
 .contact .eyebrow{color:var(--bronze)}
@@ -101,6 +116,8 @@ footer img{height:24px;width:auto;display:block}
   .nav ul li:not(:last-child){display:none}
   .grid,.cgrid,.about .inner{grid-template-columns:1fr}
   .about .inner{gap:24px}
+  .owners,.tech-grid{grid-template-columns:1fr}
+  .tech-card{padding:34px 26px}
   .hero{padding:72px 0 64px}
   .hero-mark{right:-140px;width:360px;opacity:.06}
 }
@@ -121,6 +138,7 @@ footer img{height:24px;width:auto;display:block}
     <ul>
       <li><a href="#empresas">Empresas</a></li>
       <li><a href="#grupo">O grupo</a></li>
+      <li><a href="#tecnologia">Tecnologia</a></li>
       <li><a class="cta" href="#contactos">Contactos</a></li>
     </ul>
   </nav>
@@ -132,9 +150,10 @@ footer img{height:24px;width:auto;display:block}
     <div class="wrap">
       <span class="eyebrow">Grupo Ownizo</span>
       <h1>Proteção, património e <em>serviço</em>.</h1>
-      <p>O Grupo Ownizo reúne marcas especializadas em seguros, proteção patrimonial e serviços a proprietários e viajantes — com operação em Portugal e Espanha e sede em Lisboa.</p>
+      <p>O Grupo Ownizo é uma empresa apostada em tecnologia e inteligência artificial, que reúne marcas especializadas em seguros, proteção patrimonial e serviços a proprietários e viajantes — com sede em Lisboa.</p>
       <div class="stats">
         <span>4 marcas</span>
+        <span>Tecnologia &amp; IA</span>
         <span>Portugal &amp; Espanha</span>
         <span>Sede em Lisboa</span>
       </div>
@@ -186,10 +205,35 @@ footer img{height:24px;width:auto;display:block}
 
   <section class="about" id="grupo">
     <div class="wrap inner">
-      <h2>Um grupo, várias formas de proteger.</h2>
       <div>
-        <p>A Ownizo, Unipessoal Lda. é a sociedade que está por trás de cada uma das marcas do grupo. Cada uma responde a uma necessidade concreta — o seguro certo, a casa acompanhada, a viagem protegida — e todas partilham a mesma forma de trabalhar: rigor, discrição e foco na qualidade da proteção, não no preço.</p>
-        <p>O grupo opera integralmente em formato digital, com sede em Lisboa e clientes em Portugal, Espanha e no estrangeiro.</p>
+        <span class="eyebrow">A origem do nome</span>
+        <h2 style="margin-top:20px">Ownizo vem de <em class="gold">owner</em>.</h2>
+      </div>
+      <div>
+        <p>O nome nasceu da palavra inglesa <strong>owner</strong> — o proprietário, quem é dono de alguma coisa. Desde o primeiro dia, a visão foi servir quem tem algo a proteger: o dono de uma casa, de uma empresa, de um património construído ao longo de anos, ou simplesmente de uma viagem planeada há meses.</p>
+        <p>Ser <em>owner</em> é ter a responsabilidade daquilo que se conquistou. A Ownizo existe para tornar essa responsabilidade mais leve — e cada marca do grupo leva esta ideia a um território próprio: o dono de uma apólice, o dono de uma propriedade, o dono de uma viagem.</p>
+      </div>
+    </div>
+    <div class="wrap owners">
+      <div><b>Owner em seguros</b><span>Adler &amp; Rochefort e MillionGuard</span></div>
+      <div><b>Owner em propriedades</b><span>Guardemar</span></div>
+      <div><b>Owner em viagens</b><span>Viagem Garantida</span></div>
+    </div>
+  </section>
+
+  <section class="tech" id="tecnologia">
+    <div class="wrap">
+      <div class="tech-card">
+        <div class="tech-head">
+          <span class="eyebrow">Tecnologia &amp; IA</span>
+          <h2>Uma empresa construída sobre tecnologia.</h2>
+          <p>A Ownizo aposta em tecnologia e inteligência artificial como base de tudo o que faz. Desenvolvemos as nossas próprias plataformas e usamos IA para trabalhar com mais rigor, mais rapidez e mais atenção ao detalhe — sem perder a discrição e o acompanhamento pessoal que cada cliente merece.</p>
+        </div>
+        <div class="tech-grid">
+          <div><h3>Plataformas próprias</h3><p>Sites, áreas de cliente e ferramentas internas desenvolvidos pelo grupo, para que cada marca funcione de forma integralmente digital.</p></div>
+          <div><h3>Inteligência artificial</h3><p>IA aplicada à análise de documentos, à comparação de soluções e à gestão do dia a dia, libertando tempo para o que realmente importa: o cliente.</p></div>
+          <div><h3>Dados ao serviço da proteção</h3><p>Informação organizada e acessível em qualquer momento, para decisões mais informadas sobre seguros, propriedades e viagens.</p></div>
+        </div>
       </div>
     </div>
   </section>
