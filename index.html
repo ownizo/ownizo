@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grupo Ownizo — Seguros, proteção e serviços patrimoniais</title>
+<meta name="description" content="O Grupo Ownizo reúne as marcas Adler &amp; Rochefort, MillionGuard, Guardemar e Viagem Garantida. Sede em Lisboa.">
+<link rel="canonical" href="https://ownizo.com/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:title" content="Grupo Ownizo">
+<meta property="og:description" content="Adler &amp; Rochefort, MillionGuard, Guardemar e Viagem Garantida — marcas do Grupo Ownizo.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ownizo.com/">
+<meta name="theme-color" content="#14181F">
+<link rel="preload" href="/assets/fonts/sora-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:Sora;font-weight:400;font-display:swap;src:url(/assets/fonts/sora-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Sora;font-weight:600;font-display:swap;src:url(/assets/fonts/sora-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:Inter;font-weight:400;font-display:swap;src:url(/assets/fonts/inter-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Inter;font-weight:500;font-display:swap;src:url(/assets/fonts/inter-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:Inter;font-weight:600;font-display:swap;src:url(/assets/fonts/inter-latin-600-normal.woff2) format("woff2")}
+:root{
+  --ink:#14181F;--ink-2:#3A404B;--muted:#6B7180;--line:#E4DFD6;
+  --paper:#F6F3EE;--card:#FFFFFF;--bronze:#B8915A;--bronze-d:#8E6C3D;
+  --radius:22px;--max:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 28px}
+h1,h2,h3{font-family:Sora,Inter,sans-serif;font-weight:600;letter-spacing:-.02em;line-height:1.08}
+
+/* nav */
+header{position:sticky;top:0;z-index:10;background:rgba(246,243,238,.86);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid transparent;transition:border-color .2s}
+header.scrolled{border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:78px}
+.nav img{height:30px;width:auto;display:block}
+.nav ul{display:flex;gap:30px;list-style:none;font-size:15px;font-weight:500}
+.nav ul a{text-decoration:none;color:var(--ink-2)}
+.nav ul a:hover{color:var(--ink)}
+.nav .cta{background:var(--ink);color:#fff;padding:10px 18px;border-radius:999px}
+.nav .cta:hover{color:#fff;background:#000}
+
+/* hero */
+.hero{padding:104px 0 88px;position:relative;overflow:hidden}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--bronze-d)}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--bronze)}
+.hero h1{font-size:clamp(52px,8.4vw,112px);margin:26px 0 28px;max-width:11ch}
+.hero h1 em{font-style:normal;color:var(--bronze)}
+.hero p{font-size:clamp(18px,1.7vw,21px);color:var(--ink-2);max-width:620px}
+.hero-mark{position:absolute;right:-90px;top:50%;transform:translateY(-50%);width:min(520px,46vw);opacity:.08;pointer-events:none}
+.stats{display:flex;flex-wrap:wrap;gap:14px;margin-top:44px}
+.stats span{border:1px solid var(--line);background:rgba(255,255,255,.55);border-radius:999px;padding:9px 18px;font-size:15px;font-weight:500;color:var(--ink-2)}
+
+/* companies */
+section.brands{padding:40px 0 110px}
+.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:38px;flex-wrap:wrap}
+.head h2{font-size:clamp(34px,4.2vw,52px)}
+.head p{color:var(--muted);max-width:430px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:34px 34px 30px;display:flex;flex-direction:column;text-decoration:none;transition:transform .25s ease,box-shadow .25s ease,border-color .25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 22px 48px -26px rgba(20,24,31,.35);border-color:#D6CEC1}
+.logo-box{height:132px;display:flex;align-items:center;justify-content:flex-start;margin-bottom:26px;border-bottom:1px solid var(--line);padding-bottom:26px}
+.logo-box img{max-height:100%;max-width:100%;width:auto;display:block}
+.logo-box img.wide{max-height:44px}
+.logo-box img.mg{max-height:76px}
+.logo-box img.gm{max-height:58px}
+.logo-box img.vg{max-height:110px}
+.tag{font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--bronze-d);margin-bottom:10px}
+.card h3{font-size:26px;margin-bottom:12px}
+.card p{color:var(--ink-2);font-size:16px;flex:1}
+.link{margin-top:24px;display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15.5px;color:var(--ink)}
+.link svg{width:18px;height:18px;transition:transform .2s}
+.card:hover .link svg{transform:translate(3px,-3px)}
+.link b{font-weight:600;border-bottom:1.5px solid var(--bronze);padding-bottom:1px}
+
+/* about strip */
+.about{padding:0 0 110px}
+.about .inner{display:grid;grid-template-columns:1fr 1.15fr;gap:60px;align-items:start;padding-top:70px;position:relative}
+.about .inner::before{content:"";position:absolute;top:0;left:28px;right:28px;height:1px;background:var(--line)}
+.about h2{font-size:clamp(30px,3.4vw,42px)}
+.about p{color:var(--ink-2);margin-bottom:16px}
+
+/* contact */
+.contact{background:var(--ink);color:#fff;border-radius:32px 32px 0 0;padding:96px 0 40px}
+.contact .eyebrow{color:var(--bronze)}
+.contact h2{font-size:clamp(36px,4.6vw,58px);margin:22px 0 54px;max-width:16ch}
+.cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.cbox{border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);padding:30px;background:rgba(255,255,255,.03)}
+.cbox small{display:block;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.55);font-weight:600;margin-bottom:14px}
+.cbox address,.cbox a{font-style:normal;font-size:19px;line-height:1.5;text-decoration:none;color:#fff}
+.cbox a:hover{color:var(--bronze)}
+footer{margin-top:80px;padding-top:30px;border-top:1px solid rgba(255,255,255,.12);display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;font-size:14px;color:rgba(255,255,255,.55)}
+footer img{height:24px;width:auto;display:block}
+
+@media (max-width:900px){
+  .nav ul li:not(:last-child){display:none}
+  .grid,.cgrid,.about .inner{grid-template-columns:1fr}
+  .about .inner{gap:24px}
+  .hero{padding:72px 0 64px}
+  .hero-mark{right:-140px;width:360px;opacity:.06}
+}
+@media (max-width:520px){
+  .wrap{padding:0 20px}
+  .about .inner::before{left:20px;right:20px}
+  .card{padding:26px 24px}
+  .logo-box{height:110px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header id="top">
+  <nav class="wrap nav" aria-label="Principal">
+    <a href="/" aria-label="Grupo Ownizo — início"><img src="/assets/logos/ownizo-logo.svg" alt="Ownizo" width="180" height="30"></a>
+    <ul>
+      <li><a href="#empresas">Empresas</a></li>
+      <li><a href="#grupo">O grupo</a></li>
+      <li><a class="cta" href="#contactos">Contactos</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <img class="hero-mark" src="/assets/logos/ownizo-mark.svg" alt="" aria-hidden="true">
+    <div class="wrap">
+      <span class="eyebrow">Grupo Ownizo</span>
+      <h1>Proteção, património e <em>serviço</em>.</h1>
+      <p>O Grupo Ownizo reúne marcas especializadas em seguros, proteção patrimonial e serviços a proprietários e viajantes — com operação em Portugal e Espanha e sede em Lisboa.</p>
+      <div class="stats">
+        <span>4 marcas</span>
+        <span>Portugal &amp; Espanha</span>
+        <span>Sede em Lisboa</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="brands" id="empresas">
+    <div class="wrap">
+      <div class="head">
+        <h2>Empresas do grupo</h2>
+        <p>Cada marca tem a sua especialidade e o seu público. Em comum, partilham a mesma exigência de qualidade e de proteção.</p>
+      </div>
+
+      <div class="grid">
+        <a class="card" href="https://adlerrochefort.com" target="_blank" rel="noopener">
+          <div class="logo-box"><img class="wide" src="/assets/logos/adler-rochefort.png" alt="Adler &amp; Rochefort" width="1500" height="127"></div>
+          <div class="tag">Mediação de seguros</div>
+          <h3>Adler &amp; Rochefort</h3>
+          <p>Agente de seguros registado na ASF, dedicado a clientes privados, expatriados e empresas em Portugal e Espanha. Seguros de saúde, património, responsabilidade civil e proteção de bens de valor, com aconselhamento discreto e personalizado.</p>
+          <span class="link"><b>adlerrochefort.com</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </a>
+
+        <a class="card" href="https://millionguard.com" target="_blank" rel="noopener">
+          <div class="logo-box"><img class="mg" src="/assets/logos/millionguard.svg" alt="MillionGuard" width="1024" height="230"></div>
+          <div class="tag">Plataforma de cliente</div>
+          <h3>MillionGuard</h3>
+          <p>Área de cliente digital, em inglês, onde particulares e empresas acompanham as suas apólices, documentos e sinistros num único espaço seguro.</p>
+          <span class="link"><b>millionguard.com</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </a>
+
+        <a class="card" href="https://guardemar.com" target="_blank" rel="noopener">
+          <div class="logo-box"><img class="gm" src="/assets/logos/guardemar.svg" alt="Guardemar — Private Property Care" width="741" height="118"></div>
+          <div class="tag">Gestão de propriedades</div>
+          <h3>Guardemar</h3>
+          <p>Vigilância e cuidado de casas de férias e segundas habitações no Algarve Ocidental, de Carvoeiro a Sagres: inspeções agendadas, relatórios fotográficos, custódia de chaves e coordenação de prestadores.</p>
+          <span class="link"><b>guardemar.com</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </a>
+
+        <a class="card" href="https://viagemgarantida.com" target="_blank" rel="noopener">
+          <div class="logo-box"><picture><source srcset="/assets/logos/viagem-garantida.webp" type="image/webp"><img class="vg" src="/assets/logos/viagem-garantida.png" alt="Viagem Garantida" width="480" height="306"></picture></div>
+          <div class="tag">Seguros de viagem</div>
+          <h3>Viagem Garantida</h3>
+          <p>Plataforma digital de informação e comparação de seguros de viagem, para quem viaja a partir de Portugal e para o mundo lusófono — com guias práticos sobre coberturas, destinos e assistência.</p>
+          <span class="link"><b>viagemgarantida.com</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="grupo">
+    <div class="wrap inner">
+      <h2>Um grupo, várias formas de proteger.</h2>
+      <div>
+        <p>A Ownizo, Unipessoal Lda. é a sociedade que está por trás de cada uma das marcas do grupo. Cada uma responde a uma necessidade concreta — o seguro certo, a casa acompanhada, a viagem protegida — e todas partilham a mesma forma de trabalhar: rigor, discrição e foco na qualidade da proteção, não no preço.</p>
+        <p>O grupo opera integralmente em formato digital, com sede em Lisboa e clientes em Portugal, Espanha e no estrangeiro.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section class="contact" id="contactos">
+  <div class="wrap">
+    <span class="eyebrow">Contactos</span>
+    <h2>Fale com o Grupo Ownizo.</h2>
+    <div class="cgrid">
+      <div class="cbox">
+        <small>Sede</small>
+        <address>Avenida do Atlântico, 16<br>Escritório 5.07<br>1990-019 Lisboa</address>
+      </div>
+      <div class="cbox">
+        <small>Telefone</small>
+        <a href="tel:+351911019851">+351 911 019 851</a>
+      </div>
+      <div class="cbox">
+        <small>Email</small>
+        <a href="mailto:sales@ownizo.com">sales@ownizo.com</a>
+      </div>
+    </div>
+    <footer>
+      <img src="/assets/logos/ownizo-logo-white.svg" alt="Ownizo" width="144" height="24">
+      <span>© <span id="y">2026</span> Ownizo, Unipessoal Lda. · NIPC 517169029 · Todos os direitos reservados.</span>
+    </footer>
+  </div>
+</section>
+
+<script>
+  document.getElementById('y').textContent=new Date().getFullYear();
+  const h=document.querySelector('header');
+  addEventListener('scroll',()=>h.classList.toggle('scrolled',scrollY>8),{passive:true});
+</script>
+</body>
+</html>
