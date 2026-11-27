@@ -1,12 +1,12 @@
 # Grupo Ownizo
 
-> O Grupo Ownizo (Ownizo, Unipessoal Lda., NIPC 517169029) é uma empresa portuguesa apostada em tecnologia e inteligência artificial, com sede em Lisboa. Reúne quatro marcas especializadas em seguros, proteção patrimonial e serviços a proprietários e viajantes: Adler & Rochefort, MillionGuard, Guardemar e Viagem Garantida.
+> O Grupo Ownizo (Ownizo, Unipessoal Lda., NIPC 517169029) é uma empresa portuguesa apostada em tecnologia e inteligência artificial, com sede em Lisboa. Reúne cinco marcas especializadas em seguros, proteção patrimonial e serviços a proprietários e viajantes: Adler & Rochefort, MillionGuard, Guardemar, Viagem Garantida e Voyelis.
 
 O nome Ownizo vem da palavra inglesa "owner" (proprietário). A visão do grupo é servir quem tem algo a proteger — o dono de uma apólice, de uma casa, de uma empresa, de um património ou de uma viagem — e cada marca aplica essa ideia a um território próprio:
 
 - Owner em seguros: Adler & Rochefort e MillionGuard
 - Owner em propriedades: Guardemar
-- Owner em viagens: Viagem Garantida
+- Owner em viagens: Viagem Garantida e Voyelis
 
 O grupo opera em formato integralmente digital, com plataformas próprias e ferramentas de inteligência artificial aplicadas à análise de documentos, à comparação de soluções e ao acompanhamento de clientes.
 
@@ -16,6 +16,7 @@ O grupo opera em formato integralmente digital, com plataformas próprias e ferr
 - [MillionGuard](https://millionguard.com): área de cliente digital, em inglês, onde particulares e empresas acompanham as suas apólices, documentos e sinistros num único espaço.
 - [Guardemar](https://guardemar.com): vigilância e cuidado de casas de férias e segundas habitações no Algarve Ocidental, de Carvoeiro a Sagres — inspeções agendadas, relatórios fotográficos, custódia de chaves e coordenação de prestadores.
 - [Viagem Garantida](https://viagemgarantida.com): plataforma digital de informação e comparação de seguros de viagem, com guias sobre coberturas, destinos, cancelamento e assistência médica em viagem.
+- [Voyelis](https://voyelis.com): comparador internacional de seguros de viagem, em inglês, alemão, francês e espanhol, com ofertas de várias seguradoras em tempo real ordenadas pela proteção médica e guias práticos para viajantes.
 
 ## Contactos
 
@@ -26,7 +27,7 @@ O grupo opera em formato integralmente digital, com plataformas próprias e ferr
 
 ## English
 
-> Ownizo Group (Ownizo, Unipessoal Lda.) is a Portuguese technology- and AI-driven company headquartered in Lisbon. It brings together four brands specialising in insurance, asset protection and services for property owners and travellers: Adler & Rochefort, MillionGuard, Guardemar and Viagem Garantida.
+> Ownizo Group (Ownizo, Unipessoal Lda.) is a Portuguese technology- and AI-driven company headquartered in Lisbon. It brings together five brands specialising in insurance, asset protection and services for property owners and travellers: Adler & Rochefort, MillionGuard, Guardemar, Viagem Garantida and Voyelis.
 
 The name Ownizo comes from the English word "owner". The group's vision is to serve those who have something to protect — the owner of a policy, a home, a business, wealth or a trip.
 
@@ -34,6 +35,7 @@ The name Ownizo comes from the English word "owner". The group's vision is to se
 - [MillionGuard](https://millionguard.com): English-language digital client area for policies, documents and claims, for individuals and businesses.
 - [Guardemar](https://guardemar.com): home watch and property care for holiday homes and second residences in the Western Algarve (Carvoeiro to Sagres).
 - [Viagem Garantida](https://viagemgarantida.com): digital platform for travel insurance information and comparison.
+- [Voyelis](https://voyelis.com): international travel insurance comparison site in English, German, French and Spanish, with real-time offers from several insurers ranked by medical cover.
 
 English version of the website: https://ownizo.com/en/
 Contact: +351 911 019 851 · sales@ownizo.com · Avenida do Atlântico, 16, Office 5.07, 1990-019 Lisbon, Portugal
